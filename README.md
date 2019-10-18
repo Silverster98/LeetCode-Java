@@ -3,7 +3,7 @@
 
 # App.java Description
 
-App.java is the top Java file which includes a main function. In this function, you can test the program.
+`App.java` is the top Java file which includes a main function. In this function, you can test the program.
 
 e.g.
 ```
@@ -31,7 +31,7 @@ public class App
 
 # package Description
 
-All programs are in the folder src.main.java.com.silvester.LCX, such as src.main.java.com.silvester.LCA.
+All programs are in the folder `src.main.java.com.silvester.LCX`, such as `src.main.java.com.silvester.LCA`.
 
 LCA include the solutions of leetcode problems from No.1 to No.99.
 

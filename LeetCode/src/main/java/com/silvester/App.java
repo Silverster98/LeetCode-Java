@@ -1,6 +1,6 @@
 package com.silvester;
 
-import com.silvester.LCK.LC1090;
+import com.silvester.LCJ.LC946;
 
 /**
  * Hello world!
@@ -10,11 +10,9 @@ public class App
 {
     public static void main( String[] args )
     {
-        LC1090 lc = new LC1090();
-        int[] values = new int[]{9,8,8,7,6};
-        int[] labels = new int[]{0,0,0,1,1};
-        int num_wanted = 3;
-        int use_limit = 2;
-        System.out.print(lc.largestValsFromLabels(values, labels, num_wanted, use_limit));
+        LC946 lc = new LC946();
+        int[] pushed = new int[]{1,2,3,4,5};
+        int[] popped = new int[]{4,5,3,2,1};
+        System.out.print(lc.validateStackSequences(pushed, popped));
     }
 }
